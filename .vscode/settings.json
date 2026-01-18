@@ -1,0 +1,106 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockercompose]": {
+        "editor.indentSize": "tabSize",
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.indentSize": "tabSize",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "black-formatter.args": [
+        "--line-length=120"
+    ],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "'Source Han Code JP',Consolas, 'Courier New', monospace",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": true,
+    "editor.lineHeight": 1.5,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        70,
+        80,
+        100,
+        120
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "files.exclude": {
+        "**/node_modules**/": true,
+        "**/bin**/": true,
+        "**/obj**/": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/venv/**": true,
+        "**/bin**/": true,
+        "**/obj**/": true
+    },
+    "flake8.args": [
+        "--max-line-length=120",
+        "--ignore=E203,W503,W504"
+    ],
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "plantuml.exportFormat": "svg",
+    "plantuml.exportOutDir": ".\\",
+    "python.formatting.provider": "black",
+    "python.pythonPath": ".venv/bin/python",
+    "search.exclude": {
+        "**/bin": true,
+        "**/dist": true,
+        "**/obj": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none"
+}

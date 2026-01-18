@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-azuretools.vscode-docker",
+        "dracula-theme.theme-dracula",
+        "dbaeumer.vscode-eslint",
+        "GitHub.vscode-pull-request-github",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-mermaid",
+        "PKief.material-icon-theme",
+        "humao.rest-client"
+    ]
+}
